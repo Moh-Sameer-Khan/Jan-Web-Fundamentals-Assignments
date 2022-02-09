@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>College Admission Form</title>
+</head>
+
+<body>
+    <h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<u>STUDENT REGISTRATION FORM</u></h1>
+    <form action="#">
+        <label for="forLogo"><input type="image" src="Logo1.png" alt="Logo College" width="80px"> <b>( ALIGARH MUSLIM UNIVERSITY, ALIGARH, INDIA ) <i>( Most Beautiful University, Email: amupro@amu.ac.in)</i></b></label><br><br>
+
+
+        <label for="first_name">FIRST NAME  : &nbsp;&ensp;&emsp;&emsp;<input type="text" placeholder="Please enter your First Name"
+                size="40px" minlength="2" maxlength="15" name="firstName" pattern="[a-z|A-Z]{2,15}" title="Please enter first name min. length should be 2 and alphabetic characters allowed">
+            ( Max. 15 Characters Allowed )</label><br><br>
+            
+
+
+        <label for="middle_name">MIDDLE NAME *: &emsp;<input type="text" placeholder="Please enter your Middle Name"
+                size="40px" minlength="2" maxlength="20" name="middleName" pattern="[A-z]{2,20}"  title="Please enter your middle name min. length should be 2 and alphabetic characters allowed" required> ( Max. 20 Characters Allowed )</label><br><br>
+
+        <label for="last_name">LAST NAME : &emsp;&emsp;&emsp;<input type="text"
+                placeholder="Please enter your Last Name" size="40px" minlength="2" maxlength="20" name="lastName" pattern="[A-z]{2,20}"  title="Please enter your last name min. length should be 2 and alphabetic Characters allowed"> (
+            Max. 20 Characters Allowed )</label><br><br>
+
+       
+
+        <label for="father's_name">FATHER'S NAME * : &nbsp<input type="text"
+                placeholder="Please enter your Father's Name" size="40px" minlength="3" maxlength="30" name="fatherName" pattern="[A-z]{2,20}"  title="Please enter your father's name min. length should be 3 and alphabetic Characters allowed" required> ( Max. 30 Characters Allowed
+            )</label><br><br>
+
+
+        <label for="mother's_name"> MOTHER'S NAME : &ensp;<input type="text"
+                placeholder="Please enter your Mother's Name" size="40px" minlength="3" maxlength="30" name="motherName" pattern="[A-z]{2,20}"  title="Please enter your mother's name min. length should be 3 and alphabetic Characters allowed"> ( Max. 30 Characters Allowed
+            )</label><br><br>            
+
+
+        <label for="dob"> BIRTH DATE * : &emsp;&emsp;<input type="text" placeholder="dd/mm/yyyy" name="DoB" pattern="\d{1,2}/\d{1,2}/\d{4}" title="Please enter a valid Birth Date in the dd/mm/yyyy format" required> ( dd/mm/yyyy )</label> <br><br>
+
+        <label for="age"> AGE : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="text"
+                placeholder="Enter your age" name="Age" minlength="1" maxlength="3" pattern="[1-9][0-9]{0,2}" title="Please enter a valid Age should be in numbers max. lengths should be 3"></label><br><br>
+
+        <label for="email"> E-MAIL * : &emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text"
+                placeholder="ex : abc123@gmail.com" name="Email" title="Please enter a valid email should be in gamil.com/es/org format." pattern="^.+?[A-z|0-9]{0,}@gmail\.[com|es|org]{1,3}$" required></label><br><br>
+
+        <label for="phoneNumber"> PHONE NUMBER *: <input type="tel" name="PhoneNo" placeholder="8057########" name="Telephone" minlengt="10" maxlength="15" pattern="^\+?\d{0,3}?[\s|.|-]?\d{10}$" title="Please give Ten digit code."
+            required> ( Total 15 Characters Allowed )</label><br><br>
+
+
+        <label for="address"> ADDRESS *: &emsp;&emsp;&emsp;</label>
+        <textarea name="Address" id="i1" cols="39" rows="3" placeholder="Please enter your address" title="Please enter your proper address." required></textarea><br><br>
+
+        <label for="city"> CITY : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" size="40px"
+                placeholder="Please enter your district" name="City" minlength="2" maxlength="40" pattern="[A-z]{2,40}" title="Please enter a district should be a valid city"></label><br><br>
+
+        <label for="pincode"> PIN CODE *: &emsp;&emsp;&emsp;&nbsp;<input type="text" placeholder="Pin code" maxlength="6" name="PinCode" title="Please give a valid Pin Code and max. length should be 6 in digit" pattern="[1-9]\d{5}" required> ( 6 digit
+            number)</label><br><br>
+
+        <label for="state"> STATE *:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" size="40px"
+                placeholder="Please enter your state" name="State" minlength="2" maxlength="40" pattern="[A-z]{2,40}" title="Please enter a state who match given pattern" required></label><br><br>
+
+        <label for="country"> COUNTRY * : &emsp;&emsp;&ensp;&nbsp;<input type="text" size="40px"
+                placeholder="Please enter your country" name="Country" title="Please enter any country who available" minlength="2" maxlength="40" pattern="[A-z]{2,40}" required></label><br><br>
+
+        <label for="foruploadfile">Select a Document * : <input type="file" required></label><br><br>
+
+        
+        <label for="forQulaification">QUALIFICATION *:
+            <table border="0">
+                <tr>
+                    <th>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;S.No </th>
+                    <th> Class </th>
+                    <th> Board </th>
+                    <th> Percentage (%) </th>
+                    <th> YearOf Passing </th>
+                </tr>
+                <tr>
+                    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;1.</td>
+                    <td>High School</td>
+                    <td><input type="text" placeholder="boardName" name="BoardName" minlength="2" maxlength="20" pattern="[A-z]{2,20}" title="Please enter a valid board." > </td>
+                    <td><input type="text" placeholder="##%" name="Percent" minlength="1" maxlength="5" title="Please enter a valid %" pattern="\d{1,2}\.\d{1,2}" required></td>
+                    <td><input type="year" placeholder="Passing year" name="Year" minlength="2" maxlength="4" pattern="\d{2}|\d{4}" title="Please enter a valid year." required></td>
+                </tr>
+                <tr>
+                    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2.</td>
+                    <td>Intermediate</td>
+                    <td><input type="text" placeholder="boardName" name="BoardName" minlength="2" maxlength="20" pattern="[A-z]{2,20}" title="Please enter a valid board."></td>
+                    <td><input type="text" placeholder="##%" name="Percent" minlength="1" maxlength="5" title="Please enter a valid %" pattern="\d{1,2}\.\d{1,2}" required></td>
+                    <td><input type="year" placeholder="Passing year" name="Year" minlength="2" maxlength="4" pattern="\d{2}|\d{4}" title="Please enter a valid year." required></td>
+                </tr>
+            </table>
+        </label><br><br>
+
+        <label for="tocreatePass"> Create Password * : &ensp;<input id="ip1"type="password"
+                placeholder="Min. 8 characters required" name="NewPass" title="Password should have min. 8 characters. and should be strong password(Include a special character (A-z and 0-9))" minlength="8" maxlength="20" pattern=".+" required> ( Min. 8 Characters ) </label><br><br>
+
+
+        <label for="tocinfirmPass"> Cinfirm Password * : <input type="password"
+                placeholder="Min. 8 characters required"  name="CinfirmPass" title="Password should match old pass and  min. 8 characters. and should be strong password(Include a special character (A-z and 0-9))" minlength="8" maxlength="20" pattern=".+" required> ( Password Should be match )</label><br><br>
+
+        <input type="submit" name="Submit1" value="Submit">  <input type="reset" name="Reset1" value="Reset"><br>
+    </form>
+</body>
+
+</html>
