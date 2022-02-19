@@ -13,6 +13,7 @@ h2{
 }
 /* Here are styling in table head */
 #tableHead{
+    text-align:center;
     background-color: rgb(236, 182, 115);
     color: rgb(103, 136, 5);
     font-size: 35px;
