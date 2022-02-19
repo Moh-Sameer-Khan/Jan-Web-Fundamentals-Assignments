@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: rgb(154, 208, 226);
+
+}
+h2{
+    margin: 0;
+    background-color: rgb(185, 240, 240);
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+/* Here are styling in table head */
+#tableHead{
+    background-color: rgb(236, 182, 115);
+    color: rgb(103, 136, 5);
+    font-size: 35px;
+}
+/* Here are styling in table heading */
+#tableHeadHeading{
+    background-color: rgb(208, 164, 250);
+    color: rgb(201, 20, 20);
+    font-size: 30px;
+    text-align: justify;
+}
+/* Styling for table */
+.table{
+    width: 100%;
+    margin: auto;
+    border: 6px solid rgb(95, 156, 226);
+    border-collapse:collapse;
+    font-size: 25px;    
+}
+
+/* Here are styiing for alternating color */
+tr:nth-child(3n+1){
+    color: rgb(47, 47, 163);
+    background-color: darkgray;
+}
+tr:nth-child(3n+2){
+    background-color: rgb(80, 78, 78);
+    color: rgba(255, 102, 0, 0.83);
+}
+tr{
+    text-align: justify;
+    background-color: lightgray;
+    color: rgb(134, 75, 3);
+}
+
+/* here we are using hovering */
+tr:hover:nth-child(3n+1){
+    background-color: rgb(240, 198, 233);
+    transition:1s;
+}
+tr:hover:nth-child(3n+2){
+    background-color: rgb(233, 245, 190);
+    transition:2s;
+}
+tr:hover{
+    background-color: rgb(118, 230, 159);
+    transition:2s;
+}
+th:hover{
+    background-color: rgb(158, 233, 233);
+}
+
+/* Styling for down part */
+.assignmentQuestion{
+    color: red;
+}
+
