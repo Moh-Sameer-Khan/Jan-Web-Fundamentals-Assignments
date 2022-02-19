@@ -5,28 +5,35 @@ body{
 h2{
     margin: 10px;
     text-align: center;
-    color: rgb(252, 70, 70);
+    color: rgb(255, 255, 255);
     font-size: 6vw;
-    background-color: rgb(212, 207, 199);
+    background-color: rgb(0, 0, 0);
 }
 
-.Image-Container{
-    /* margin-top: 0px; */
+.image-Container{
     background-color:rgb(194, 150, 150);
     flex-wrap: wrap;
     display: flex;
+    row-gap: 4vh;
+    justify-content: center;
 }
 
 .img-gellery{
-    /* width: 100%; */
-    /* height: ; */
-    
-    /* max-width: 28vw;
-    max-height: 18vw; */
+    border: 3px solid white;
+    width: 49vh;
+    height: 30vh;
+    max-width: 60vh;
 }
 
-.Space-evenly-container{
-    
-    /* display: flex; */
+.space-evenly-container{
     justify-content: space-evenly;
+}
+
+.assignmentQuestion{
+    color: red;
+    
+.img-gellery:hover{
+    border: 3px dotted rgb(78, 76, 76);
+    zoom: 1.1;
+    cursor:zoom-out;
 }
