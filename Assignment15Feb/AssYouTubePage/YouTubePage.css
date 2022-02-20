@@ -1,41 +1,55 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgb(0, 0, 0);
+}
+#Header1,#nav{
+    margin: 0;
+}
+#Header1{
+    
+    background-color: black;
+    position:fixed;
+}
+
+#HeaderIcon{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    list-style: none;
 }
 
 #YouTube{
-    margin-left: 30px;
-    width: 6vw;
+    margin: 1vh 0 0 3vh ;
+    width: 7vw;
 }
+
 #MenuBar{
-    width: 3vw;
-}
-#nav{
-    position: absolute;
-}
-#div1,#div2{
-    display: inline;
+    margin: 1vh 0 0 0;
+    width: 2vw;
 }
 
 #button1{
-    position: absolute;
     border-color: rgb(140, 127, 127);
     background-color: #313131;
-    margin-left: 38.3vw;
-    height: 6.3vh;
+    margin: 0.7vh 0 0 0; 
+    padding: 3px 5px 3px 3px;
+    width: 5vw;
+    height: 5.6vh;
     border: none;
 }
 #button1:hover{
     background-color: rgb(105, 94, 94);
 }
 #SearchImage{
-    width: 30px;
+    margin: 3px 4px 1px 4px;
+    width: 3vh;
 }
 [type="text"]{
     color: white;
-    position: absolute;
-    margin-left: 75%;
+    margin: 1vh 0 0 13vw;
     background-color: rgb(14, 13, 13);
-    height: 6vh;
+    height: 5vh;
     width: 30vw;
     border-left-color: rgb(148, 146, 146);
     border-bottom-color: rgb(76, 74, 74);
@@ -43,48 +57,31 @@ body{
     border-right: none;
     
 }
+
 input:hover{
     border-color: rgb(85, 85, 242);
-    /* background-color: red; */
-}
-#MikeImage{
-    width: 2.6vw;
-}
-#mikeReference{
-    background-color: transparent;
-    position: absolute;
-    margin-left: 42vw;
-}
-#div3{
-    display: inline;
 }
 
-#VideoAddPng,#AppPngImage,#NotificationPngImage{
-    width: 2vw;
+#MikeImage{
+    margin: 1vh 0 0 1vh;
+    width: 5vh;
+}
+
+#VideoAddPng,#AppPngImage,#NotificationPngImage,#ProfileImage{
+    margin: 1vh 0 0 2vw;
+    width: 4vh;
 }
 
 #ProfileImage{
     border-radius: 25px;
-    width: 2vw;
 }
+
 #VideoAdd{
-    position:absolute;
-    margin-left: 68vw;
-}
-#AppIcon{
-    position: absolute;
-    margin-left: 73vw;
-}
-#NotificationIcon{
-    position:absolute;
-    margin-left: 78vw;
-    }
-#ProfilePic{
-    position:absolute;
-    margin-left: 83vw;
+    margin: 0 0 0 15vw;
 }
 #div4{
-    display: inline;
+    display: inline-block;
+    overflow-x: hidden;
 }
 .button-content{
     background-color: #373737;
@@ -92,11 +89,21 @@ input:hover{
     border-radius: 17px;
     font-size: 15px;
     padding: 6px 4px 6px 4px;
-    margin: 12px;
+    margin: 12px 12px 12px 4px;
     border-left-color: rgb(98, 92, 92);
     border-right-color: rgb(165, 163, 163);
     border-top-color: rgb(98, 92, 92);
     border-bottom-color: rgb(160, 149, 149);
+}
+
+#ActiveButton{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 30px;
+    border-radius: 17px;
 }
 .button-content:hover{
     cursor: pointer;
@@ -104,9 +111,12 @@ input:hover{
 }
 .Img-Content{
     margin-top: 6vh;
-    width: 28vw;
+    width: 30vw;
     margin: 1vw;
 
+}
+.Img-Content:hover{
+    border: 2px dotted white;
 }
 .LogoChannel{
     margin-left: 2vh;
@@ -117,14 +127,14 @@ input:hover{
 }
 
 #VideoContainer{
-    display: inline;
+    display: inline-flexbox;
 }
 /* For 1st video container */
 #div7,#div8,#div9{
     margin-left: 2vh;
     display: flexbox;
     overflow: hidden;
-    width: 30vw;
+    width: 31vw;
     
 }
 /* For 1st video container */
@@ -138,7 +148,7 @@ input:hover{
     margin-left: 2vh;
     display: flexbox;
     overflow: hidden;
-    width: 30vw;
+    width: 31vw;
     
 }
 /* here for 2nd row  video container*/
@@ -152,7 +162,7 @@ input:hover{
     margin-left: 2vh;
     display: flexbox;
     overflow: hidden;
-    width: 30vw;
+    width: 31vw;
     
 }
 /* here for 3rd row  video container*/
@@ -166,7 +176,7 @@ input:hover{
     margin-left: 2vh;
     display: flexbox;
     overflow: hidden;
-    width: 30vw;
+    width: 31vw;
     
 }
 /* here for 4th row  video container*/
@@ -178,6 +188,10 @@ input:hover{
 
 #div5,#div10,#div15,#div20{
     display: flex;
+    flex-wrap: wrap;
 }
-
+.video-bottom-section{
+    display: flexbox;
+    align-items: flex-start;
+}
 
