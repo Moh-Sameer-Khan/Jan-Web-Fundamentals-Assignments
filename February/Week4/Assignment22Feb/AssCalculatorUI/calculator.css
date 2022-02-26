@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-image: url('./Cal2.jpg');
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 5%; */
+}
+.calculator{
+    /* height: fit-content; */
+    width: 40%;
+    background-color: #C5C0E8;
+    /* border: 2px solid black; */
+    float: right;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.nav-head{
+    text-align: center;
+    font-size: 170%;
+}
+.nav-span{
+    margin: 80px;
+}
+.nav-span.blue{
+    color: blue;
+}
+.calculation-data,.calculation-result {
+    text-align: right;
+    padding-right: 40px;
+}
+.calculation-data{
+    font-size: 250%;
+}
+.calculation-result{
+    color: gray;
+}
+.recent-clock{
+    cursor: pointer;
+    padding-left:40px ;
+}
+.mode{
+    cursor: pointer;
+    padding-left:20px ;
+}
+.seaprator{
+    border-color: #e5e4ed;
+    
+}
+.button{
+    padding: 31px;
+    font-size: 250%;
+    margin-left:20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.buttonAC,.button-arrow,.button-add,.button-divide{
+    padding: 30px 30px 30px 45px ;
+    font-size: 210%;
+}
+.button-digit{
+    padding: 30px 30px 30px 62px ;
+    font-size: 250%;
+}
+.active{
+    color: blue;
+}
+.active-round{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    margin-left: 70px;
+    padding:15px 30px;
+}
+@keyframes name-condidate {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }  
+
+strong {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: name-condidate;
+    animation-duration: 10s;
+    animation-direction: reverse;
+  }
+p{
+    color:beige;
+}
+.detail-assignment{
+    font-size: 150%;
+    margin-left: 10px;
+    width: fit-content;
+    /* margin-top: 20px; */
+}
+.assignment-bio{
+    background-color: rgb(247, 247, 46);
+    width: fit-content;
+    color: white;
+    margin-left: 10px;
+}
