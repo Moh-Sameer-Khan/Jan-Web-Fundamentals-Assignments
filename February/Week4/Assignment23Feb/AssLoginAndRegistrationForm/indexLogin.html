@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./loginForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../UsePicIcon/LoginPng.png">
+</head>
+
+<body>
+    <div class="login-form">
+        <div class="flex-head">
+            <a href="../AssLoginAndRegistrationForm/indexLogin.html" class="click active-login">Login</a>
+            <a href="../AssLoginAndRegistrationForm/indexRegistration.html"
+                class="click disactive-registration">Registration</a>
+        </div><br><br>
+        <form action="#">
+
+            <i class="fa fa-envelope-o fa-2x color-fa" aria-hidden="true"></i> <input class="email-input" type="email"
+                name="emailData" placeholder=" Enter Your Email" title="Please enter a email and should be valid"
+                pattern="^^.+?[A-z|0-9]{0,}@(.+)?gmail\.com$$" required><br><br>
+
+            <i class="fa fa-lock fa-2x color-fa" aria-hidden="true"> </i> <input class="password-input" type="password"
+                name="password-input" placeholder=" Enter Your Passoword"
+                title="Passowrd should have min. 8 characters and should be strong pass" minlength="8" maxlength="20"
+                pattern=".+" required>
+            <br><br>
+
+            <input type="checkbox" required> <span class="checkbox-color">Rememeber me</span><br><br>
+
+            <div class="login-button">
+                <button><input class="login-input" type="submit" title="Please fill above all terms" value=" Login"><i
+                        aria-hidden="true"></i></button><br><br>
+            </div>
+
+            <div class="text-center">
+                <a href="#">Forgot Password ?</a>
+
+                <p>Don't have any account ? New here <a href="../AssLoginAndRegistrationForm/indexRegistration.html">
+                        Signup now</a></p>
+            </div>
+
+
+            <div class="footer">
+                <h3>Login with</h3>
+
+                <div class="foot">
+                    <a href="#" title="Facebook" class="footer-icon"><i class="fa fa-facebook-official fa-3x"
+                            aria-hidden="true"></i></a>
+
+                    <a href="#" title="Twitter" class="footer-icon"><i class="fa fa-twitter-square fa-3x"
+                            aria-hidden="true"></i></i></a>
+
+                    <a href="#" title="Gmail" class="footer-icon"><i class="fa fa-envelope fa-3x"
+                            aria-hidden="true"></i></a>
+                    <a href="#" title="Google" class="footer-icon"><i class="fa fa-google-plus-square fa-3x"
+                            aria-hidden="true"></i></a>
+
+                    <a href="#" title="Linked-in" class="footer-icon"><i class="fa fa-linkedin-square fa-3x"
+                            aria-hidden="true"></i></a>
+                    <a href="#" title="Instagram" class="footer-icon"><i class="fa fa-instagram fa-3x"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </form>
+    </div><br><br>
+
+    <div class="detail-assignment">
+        <p><strong>Note:</strong> Assignment :- Login And Registration Form UI with Validation</p>
+
+        <strong>Designed By : <i><u> Moh Sameer Khan</u></i></strong>
+        <p><strong>E-mail: mskhanm1819@gmail.com</strong></p>
+    </div>
+</body>
+
+</html>

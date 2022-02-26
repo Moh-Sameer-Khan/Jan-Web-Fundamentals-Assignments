@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.login-form  .flex-head {
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.email-input,.password-input{
+    width: 40%;
+    padding: 15px 5px;
+    text-align: center;
+    border: none;
+    background-color: #F8F1F2;
+    outline: none;
+    color: rgb(6, 96, 240);
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.flex-head{
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.login-form > form i{
+    position: absolute;
+}
+.click{
+    margin-left:90px;
+    
+}
+.active-login{
+    text-decoration: underline;
+}
+p,h3,.checkbox-color{
+    color: white;
+}
+
+.email-input:hover,.password-input:hover{
+    border: 1px solid rgb(119, 116, 116);
+    
+}
+[type="submit"]{
+background: transparent;
+color: blue;
+font-size: 30px;
+font-weight: bold;
+}
+.login-input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color: #F8F1F2;
+    cursor: pointer;
+    width: 41%;
+    padding: 15px 0;
+    font: bold;
+    border-radius: 30px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(156, 240, 80);
+    border: 1px solid gray;
+    box-shadow: 5px 10px 20px rgb(106, 255, 0);
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active,.disactive-registration{
+    color: red;
+}
+
+.login-form{
+    margin-top: 20px;
+    width: 100%;
+    background: rgb(0,0,0);
+    display: flexbox;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.footer > .foot i{
+    position: relative;
+}
+.color-fa{
+    color: rgb(10, 240, 10);
+    margin-left: 11px;
+    padding: 5px;
+    min-width: 10px;
+    margin-left: 12px;
+    text-align: center;
+}
+.footer-icon{
+    margin: 20px;
+}
+.footer-icon:hover{
+    color: rgb(10, 245, 10);
+}
+
+/* here are assignment-detail color styling */
+.detail-assignment{
+    text-align: center;
+    background-color: gray;
+}
+u{
+    color: blue;
+}
+strong{
+    color: white;
+}

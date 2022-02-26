@@ -1,0 +1,132 @@
+
+body{
+    margin: 0;
+    background-color: rgb(0,0,0);
+}
+
+.registration-text{
+    color: blue;
+}
+.registration-text:hover{
+    text-decoration: underline;
+}
+.registration-form{
+    margin-top: 20px;
+    background: rgb(0,0,0);
+    text-align: center;
+    width: 100%;
+}
+.registration > form i{
+    position: absolute;
+}
+.flex-head{
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.registration-form  .flex-head {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.click{
+    margin-left: 90px;
+}
+.click:hover{
+    text-decoration: underline;
+}
+
+.registration{
+    margin-bottom:10px;
+}
+.fa{
+    color: rgb(10, 240, 10);
+    margin-left: 11px;
+    padding: 5px;
+    min-width: 10px;
+    text-align: center;
+}
+.input-form{
+    width: 40%;
+    padding: 15px 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: rgb(60, 0, 255);
+    border-radius: 20px;
+    background-color: #F8F1F2;
+    font-size: medium;
+    font-weight: bold;
+}
+select{
+    padding: 15px 28px;
+    border: none;
+    outline: none;
+    margin-left: 13px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #F8F1F2;
+    color: rgb(60, 0, 255);
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+.input-submit{
+    background: transparent;
+    color: blue;
+    font-size:large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.button-registration{
+    cursor: pointer;
+    width: 40%;
+    background-color: #F8F1F2;
+    padding: 15px 5px;
+    font: bold;
+    overflow: hidden;
+    border-radius: 30px;
+    border: none;
+}
+.button-registration:hover{
+    background-color: rgb(131, 187, 131);
+    border: 1px solid gray;
+    box-shadow: 5px 10px 20px rgb(156, 240, 89);
+}
+.input-reset{
+    color: blue;
+    font-size:large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #F8F1F2;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.input-reset:hover{
+    background-color: rgb(156, 240, 89);
+    border: 1px solid gray;
+    box-shadow: 5px 10px 20px rgb(106, 255, 0);
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active,.login-noactive{
+    color: red;
+}
+
+p,.checkbox-text{
+    color: white;
+}
+.active-registration{
+    color: blue;
+    text-decoration: underline;
+}
