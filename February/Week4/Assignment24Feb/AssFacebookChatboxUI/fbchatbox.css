@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    background: radial-gradient(circle, rgba(3,3,4,1) 0%, rgba(78,35,98,1) 100%);
+    color: white;
+    margin: 0;
+    font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header-item{
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #A5A5A5; 
+}
+
+.right-nav{
+    width: 83vw;
+    /* width:%; */
+    text-align: right;
+    /* float: right; */
+    /* justify-content: right; */
+    position: relative;
+    /* float: right; */
+}
+.button-right-nav{
+    margin: 10px 0 15px 35px;
+    font-size: x-large;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+}
+.button-right-nav:hover{
+    background: #A5A5A5;
+    border: 1px solid #FD0BFD;
+}
+
+.profile{
+    border:3px solid red;
+    border-radius: 50%;
+}
+.name-profile{
+    padding-left: 20px;
+}
+.gray{
+    padding-left: 20px;
+    color: #A5A5A5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.profile-bio{
+    position: static;
+    padding-top: 160px;
+    text-align: center;
+}
+.profile-dp{
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+}
+
+.second-person{
+    width: fit-content;
+    padding: 10px;
+}
+.time-chat{
+    margin-left: 75px;
+    border-radius: 20px;
+    background-color: rgb(87, 87, 92);
+    padding: 3px 8px;
+}
+p{
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.inline{
+    display: inline;
+    margin-left: 10px;
+}
+.right-text{
+    background-color: rgb(113, 113, 238);
+    float: right;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+.other-person-message{
+    background-color:  rgb(87, 87, 92); 
+}
+footer{
+    margin-top: 50px;
+    position:absolute;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.fa{
+    padding: 4px;
+    color: #52FF00;
+}
+.fa-nav{
+    color: #FD0BFD;
+}
+input{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    width: 77vw;
+    height: 40px;
+    background-color: #A5A5A5;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+input:hover{
+    border: 2px solid #004cff;
+}
+.button-footer{
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+}
+.button-footer:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background: #A5A5A5;
+}
+.footer-right{
+    float: right;
+}
