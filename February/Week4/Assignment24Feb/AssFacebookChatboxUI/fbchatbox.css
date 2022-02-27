@@ -91,7 +91,7 @@ p{
     background-color:  rgb(87, 87, 92); 
 }
 footer{
-    margin-top: 50px;
+    margin-top: 60px;
     position:absolute;
 }
 .footer-container{
@@ -111,7 +111,7 @@ input{
     margin-bottom: 10px;
     border: none;
     outline: none;
-    width: 77vw;
+    width: 75vw;
     height: 40px;
     background-color: #A5A5A5;
     color: rgb(255, 255, 255);
