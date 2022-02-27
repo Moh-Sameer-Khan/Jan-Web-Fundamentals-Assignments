@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    color: rgb(13, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 10px 200px;
+    border-bottom: 1px solid white;
+}
+.pincode{
+    padding-left: 124px;
+}
+.text-white{
+    color: white;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.header-menu{
+    display: inline;
+}
+nav{
+    background-color: black;
+}
+.logo{
+    cursor: pointer;
+    background-color: black;
+    margin-left: 20px;
+    width: 170px;
+    padding: 50px 30px;
+}
+.padding-right{
+    padding-right: 50px;
+}
+span{
+    cursor: pointer;
+}
+.nav-links{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    text-transform: uppercase;
+}
+.dynamic-width{
+    width: calc(100%-200px);
+}
+.nav-links-container{
+    background-color: rgb(88, 92, 92);
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+.nav-center{
+    background-color: rgb(128, 122, 114);
+    text-align: center;
+
+}
+.simple-btn{
+    border: none;
+    
+}
+a{
+    color: red;
+}
+
+.active:hover{
+    color: rgb(47, 255, 0);
+}
+.search-bar{
+    /* display: inline-block; */
+    border: 1ps solid black;
+    border-radius: 10px;
+    padding:12px;
+    float: right;
+    margin: 50px 10px 0 0;
+    background-color: rgb(233, 236,239);
+}
+.simple-input{
+    border: none;
+    outline: none;
+    background-color: rgb(233,236,239);
+}
+nav{
+    border-bottom: 1px solid rgb(146,147,149);
+}
+.bold{
+    font-weight: 700;
+}
+.nav-lower{
+    text-transform: lowercase;
+}
+section{
+    background-color: black;
+    padding: 50px 140px 0 140px;
+}
+.category-title > h1{
+    display: inline;
+    font-size: 300%;
+    font-style: italic;
+}
+.category-title{
+    margin-top: 30px;
+}
+.category-title > button{
+    padding: 10px;
+    border-radius: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.category-title > button:hover {
+    background-color: rgb(91, 248, 109);
+    color: white;
+}
+.text-white{
+    color: white;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.product-container > div {
+    cursor: pointer;
+}   
+.product-container > div > div {
+    width: 320px;
+    height: 320px;
+    background-image: url('./vivoFrontimage.jpg');
+   background-size: cover;
+}
+.product-container > div:hover > div {
+    background-image: url('./vivoBackimage.jpg');
+    
+}
+.favorite-heart {
+    float: right;
+    padding: 15px 15px 0 0;
+}
+.position-bottom{
+    position: relative;
+    top: 240px;
+    transition: 0.25s;
+}
+.product-container > div:hover .position-bottom{
+    top: 230px;
+}
+.product-container > div:hover{
+    border: 1px solid blue;
+} 
+.position-bottom > p{
+    display: inline;
+    padding: 5px;
+    margin-left:10px ;
+    background-color: rgb(175, 141, 141) ;
+   
+}
+.old-price{
+    color:lightgray;
+    text-decoration: line-through;
+}
+.new-price{
+    color: red;
+}
+.gray{
+    color: gray;
+}
+
