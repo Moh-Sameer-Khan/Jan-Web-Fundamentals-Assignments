@@ -14,19 +14,19 @@ function fizzBuzz() {
         for (var i = 1; i <= num; i++) {
             // here are checking a condition as per given
             if (i % 3 == 0 && i % 5 == 0) {
-                document.write("<br>" + "FizzBuzz");
+                document.write("<br>" + "," + "FizzBuzz");
             }
             // here are checking another condition as per given
             else if (i % 3 == 0) {
-                document.write("<br>" + "Fizz");
+                document.write("<br>" + "," + "Fizz");
             }
             // here are checking another one condition as per given question
             else if (i % 5 == 0) {
-                document.write("<br>" + "Buzz");
+                document.write("<br>" + "," + "Buzz");
             }
             // if not any condtion that print number
             else {
-                document.write("<br>" + i);
+                document.write("<br>" + "," + i);
             }
         }
     }
