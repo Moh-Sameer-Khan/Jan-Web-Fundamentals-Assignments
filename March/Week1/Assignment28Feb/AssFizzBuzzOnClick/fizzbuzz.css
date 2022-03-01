@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-image: url('../UseLogo/bgPics.jfif');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+p{
+    color: green;
+    background-color: green;
+}
+h1{
+    background-color: rgb(173, 221, 221);
+    width: fit-content;
+    color: red;
+}
+strong{
+    color: blue;
+}
+button {
+    
+    background: linear-gradient(rgb(163, 240, 226),rgb(255, 255, 255),rgb(129, 165, 226));
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-weight: bolder;
+    padding: 2vh
+}
+h2{
+    color: rgb(255, 0, 0);
+    background-color: rgb(235, 207, 136);
+    width: fit-content;
+}
+
+span {
+    color: rgb(171, 8, 122);
+    position: absolute;
+    border-radius: 50px;
+    padding: 6vh;
+    bottom: 10vh;
+    background: linear-gradient(rgb(141, 148, 140),rgb(255, 255, 255),rgb(140, 217, 250));
+    animation: moving 20s infinite;
+
+}
+@keyframes moving {
+    0% {left: 130px; }
+    66% {left: 800px; }
+    100% {left: 130px; }
+    
+}
+button:hover {
+    background: linear-gradient(rgb(197, 233, 161),rgb(240, 215, 215),rgb(240, 150, 243));
+    position: relative;
+    top: 1px
+    
+}
+span:hover {
+    background: linear-gradient(rgb(171, 171, 240),rgb(220, 165, 165),rgb(127, 176, 206));
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(235, 186, 186);
+}
