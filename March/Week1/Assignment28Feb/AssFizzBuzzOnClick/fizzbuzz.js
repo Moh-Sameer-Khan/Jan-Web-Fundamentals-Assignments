@@ -27,7 +27,7 @@ function fizzBuzz() {
             // if not any condtion that print number
             else {
               
-                document.write("<br>" + "," + i );
+                document.write("<br>" + i  + ",");
             }
         }
     }
