@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check Password Same Or NOT</title>
+    <link rel="stylesheet" href="./passwordClick.css">
+    <link rel="icon" href="../UsePicIcon/RegistrationPng.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./RegistrationPng.png">
+</head>
+
+<body>
+    <div class="registration-form">
+
+        <div class="flex-head">
+            <a href="#" class="click login-noactive">Login</a>
+            <a href="#" class="click active-registration">Registration </a>
+        </div><br><br>
+
+        <div class="registration">
+
+            <form action="#">
+                <i class="fa fa-user-o fa-2x" aria-hidden="true"></i> <input type="text" class="input-form"
+                    placeholder="Enter Your Name" name="name" title="Please enter your name"
+                    pattern="^[A-z]{1,}[-'.\s,]?[A-z]{0,}[-,.\s|']?[A-z]{0,}['\s,.-]?[A-z]{0,}" required><br><br>
+
+                <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> <input class="input-form" type="email"
+                    name="emailData" placeholder=" Enter Your Email" title="Please enter a email and should be valid"
+                    pattern="^^.+?[A-z|0-9]{0,}@(.+)?gmail\.com$$" required><br><br>
+
+                <i class="fa fa-address-book fa-2x" aria-hidden="true"></i> <input type="tel" class="input-form"
+                    name="number" placeholder="Phone Number" title="Enter a Valid Phone Number"
+                    pattern="^\+?\d{0,3}?[\s|.|-]?\d{10}$" required><br><br>
+
+                <i class="fa fa-male fa-2x" aria-hidden="true"></i>
+                <select name="select">
+                    <option disabled selected hidden> Select</option>
+                    <option disabled>Select gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select><br><br>
+                <!-- here are input for take password -->
+                <i class="fa fa-lock fa-2x" aria-hidden="true"> </i><input id="ip_text_password" class="input-form"
+                    type="password" placeholder="Create a Passoword" name="NewPass"
+                    title="Password should have min. 8 characters. and should be strong password(Include a special character (A-z and 0-9))"
+                    minlength="8" maxlength="20" pattern=".+" required><br><br>
+                <!-- here are input for cinfirming password -->
+                <i class="fa fa-lock fa-2x" aria-hidden="true"> </i><input id="ip_text_cinfirm_pswd" type="password"
+                    class="input-form" placeholder="Cinfirm Passoword" name="CinfirmPass" minlength="8" maxlength="20"
+                    pattern=".+" required><br><br>
+
+                <input type="checkbox" class="input-check" name="Check" title="Please check all conditions carefully"
+                    required><span class="checkbox-text">By signing up, I accept all <span> Terms and Conditions</span>
+                    of Above all in this Form.</span> <br><br>
+                <!-- Here are giving on click functionality this button -->
+                <input onclick="passwordMatch()" type="Submit" class="input-submit" name="SubmitForm"
+                    value="Register Now" title="Plese fill the all requierd queries before submit" required><br><br>
+                <!-- here will be output show -->
+                <span id="result">Form Result will show here </span><br><br>
+                <input type="reset" class="input-reset" value="Cancel" name="reset"
+                    title="you can cancel and again fill..">
+                <p>Already have an account ? <a href="#">Login now</a></p>
+            </form>
+        </div>
+    </div><br><br>
+    <!-- here are for Assignement Details -->
+    <span id="assignment_detail">Assignment 28Feb2022 Submitted By <strong>Moh Sameer Khan</strong></span>
+    <!-- For JS Functionality -->
+    <script src="./password.js"></script>
+</body>
+
+</html>

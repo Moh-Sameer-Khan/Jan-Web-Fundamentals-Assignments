@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    background-image: url('./calPic.jpg');
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px #f5c6c6;
+    width: 40vw;
+    position: absolute;
+    left: 26%;
+    top: 10%;
+    padding: 5%;
+}
+input {
+    border-radius: 2vh;
+    margin: 1vh;
+    height: 6vh;
+    width: 50%;
+    background-color: rgb(191, 193, 186);
+    padding-left: 20px;
+    font-weight: bold;
+    color: red;
+    border: none;
+    outline: none;
+}
+input:hover{
+    border: 2px solid rgb(70, 120, 181) ;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(rgb(226, 160, 160),rgb(224, 235, 152),rgb(114, 201, 211));
+    padding: 1vh;
+    width: 50%;
+    border-radius: 15px;
+    font-weight: bold;
+    color: blue;
+    border: none;
+}
+button:hover{
+    border: 2px solid rgb(241, 157, 157);
+    background: linear-gradient(rgb(107, 236, 105),rgb(255, 255, 255),rgb(197, 105, 218));
+}
+
+#result{
+    color: rgb(241, 6, 6);
+    background-color: rgb(238, 238, 179);
+    padding:  10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#assignment_detail {
+    position: absolute;
+    border-radius: 2vh;
+    padding: 6vh;
+    bottom: 10vh;
+    background: linear-gradient(rgb(206, 137, 211),rgb(255, 255, 255),rgb(211, 114, 114));
+    animation: move 20s infinite;
+    border-radius: 100px;
+}
+strong{
+    color: blue;
+}
+@keyframes move {
+    0% {left: 130px; }
+    66% {left: 800px; }
+    100% {left: 130px; }
+}
+#assignment_detail:hover {
+    background: linear-gradient(rgb(64, 228, 31),rgb(236, 223, 223),rgb(56, 36, 172));
+}
