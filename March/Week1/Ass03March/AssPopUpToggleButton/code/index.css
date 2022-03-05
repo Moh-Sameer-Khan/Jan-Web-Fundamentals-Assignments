@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(rgb(45, 44, 45),rgba(45, 40, 23, 0.07)),url('../usepics/popupbg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+#view-button{
+    color: rgb(64, 87, 172);
+    padding: 4vh 4vw;
+    font-weight: bolder;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: gray;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#view-button:hover{
+    background: linear-gradient(rgb(125, 133, 120),rgb(124, 131, 152));
+    border: 3px solid rgb(88, 87, 90);
+}
+#view-button:active{
+    color: rgb(236, 49, 49);
+}
+.popup{
+    position: fixed;
+    top: 40%;
+    background-color: rgb(238, 234, 228);
+    opacity: 0.8;
+    text-align: center;
+    padding: 20px 20px;
+    width: fit-content;
+    border-radius: 20px;
+    display: none;
+}
+.popup:hover{
+    background-color: #fff;
+    border: 1px solid rgb(213, 132, 132);
+}
+/* for hiding popup */
+.d-none{
+    display: none;
+}
+/* for showing popup */
+.d-show{
+   display: initial;
+}
+
+.header-left{
+    font-size: x-large;
+    font-weight: bold;
+    float: left;
+}
+
+.right{
+    cursor: pointer;
+    color: red;
+    float: right;
+    font-size: 30px;
+}
+.right:active{
+    color: blue;
+}
+.fa-check{
+    color: red;
+}
+
+h3{
+    color: red;
+    font-weight: bold;
+    font-size: 23px;
+}
+.button-bottom{
+    color: rgb(70, 80, 190);
+    padding: 12px 20px;
+    background-color: rgb(143, 131, 131);
+    border: none;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+p{
+    font-weight: bold;
+    font-size: large;
+}
+.button-bottom:hover{
+    border: 2px solid rgb(235, 166, 166);
+    background-color: rgb(147, 163, 147);
+}
+.button-bottom:active{
+    color: rgb(224, 54, 54);
+}
+
+#assignment_detail {
+    position: relative;
+    border-radius: 2vh;
+    padding: 6vh;
+    bottom: 10vh;
+    top: -30%;
+    background: linear-gradient(rgb(237, 202, 240),rgb(255, 255, 255),rgb(196, 155, 155));
+    animation: move 20s infinite;
+    border-radius: 100px;
+}
+@keyframes move {
+    0% {left: 130px; }
+    66% {left: 350px; }
+    100% {left: 100px; }
+}
+#assignment_detail:hover {
+    background: linear-gradient(rgb(194, 235, 186),rgb(236, 223, 223),rgb(146, 131, 230));
+}
+strong{
+    color: blue;
+}

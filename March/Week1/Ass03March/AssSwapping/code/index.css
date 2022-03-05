@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('../usepic/bgswap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.swapping-result{
+    position: relative;
+    background-color: rgb(235, 204, 204);
+    padding: 40px;
+    width: fit-content;
+    margin-top: 150px;
+    left: 30%;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+h1{
+    margin: 40px;
+    background-color: rgb(204, 201, 201);
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(78, 78, 218);
+    width: fit-content;
+    border: 1px solid rgb(240, 203, 203);
+    padding: 10px 30px;
+}
+.swapping-result:hover{
+    border: 2px solid rgb(145, 106, 106);
+    background-color: rgb(250, 247, 247);
+}
+.span-alert{
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+.result-show{
+    font-weight: bold;
+    background-color: rgb(228, 219, 219);
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+}
+input{
+    width: 20vw;
+    background-color: rgb(187, 183, 183);
+    text-align: center; 
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: blue;
+}
+input:hover{
+    border: 2px solid rgb(233, 65, 65);
+}
+button{
+    padding: 6px 20px;
+    color: rgb(52, 85, 231);
+    font-weight: bold;
+    font-size: x-large;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(197, 195, 191);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(148, 163, 163);
+    border: 2px solid gray;
+}
+button:active{
+    color: rgb(228, 47, 47);
+}
+#result1,#result2{
+    color: rgb(43, 51, 201);
+    font-weight: bold;
+    background-color: rgb(231, 194, 194);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#assignment_detail {
+    position: relative;
+    border-radius: 2vh;
+    padding: 6vh;
+    bottom: 10vh;
+    top: 10%;
+    background: linear-gradient(rgb(237, 202, 240),rgb(255, 255, 255),rgb(196, 155, 155));
+    animation: move 20s infinite;
+    border-radius: 100px;
+}
+@keyframes move {
+    0% {left: 130px; }
+    66% {left: 800px; }
+    100% {left: 400px; }
+}
+#assignment_detail:hover {
+    background: linear-gradient(rgb(194, 235, 186),rgb(236, 223, 223),rgb(146, 131, 230));
+}
+strong{
+    color: blue;
+}
