@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../Usepic/bgpic.jpg');
+}
+h2{
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    background-color: rgb(0, 0, 0);
+}
+.container-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 20px 40px 0 40px;
+}
+
+.img1{
+    width: 320px;
+    height: 330px;
+    background-image: url('../Usepic/image1.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image2.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image4.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image5.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image6.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image7.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img7{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image8.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img8{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image9.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img9{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image10.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img10{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image11.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img11{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image12.webp');
+    background-size: cover;
+    background-position: center;
+}
+.img12{
+    width: 320px;
+    height: 320px;
+    background-image: url('../Usepic/image3.webp');
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    background-color: #fff;
+    cursor: pointer;
+}
+.favorite-heart {
+    float: right;
+    padding: 15px 15px 0 0;
+}
+.bottom-like{
+    position: relative;
+    top: -140px;
+    transition: 0.25s;
+}
+
+.container:hover .bottom-like{
+    top:-130px
+}
+.container:hover{
+    border:3px dotted blue;
+}
+.red-like{
+    color: red;
+}
+.red-like:active{
+    color: blue;
+}
+.blue-dislike{
+    color: blue;
+}
+.blue-dislike:active{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+p{
+    padding-left: 10px;
+}
+.like_container{
+    margin-left: 5px;
+    color: rgb(255, 8, 0);
+    font-weight: bold;
+    font-size: x-large;
+}
+.dislike_container{
+    margin-left: 5px;
+    color: blue;
+    font-weight: bold;
+    font-size: x-large;
+}
+button{
+    padding: 6px 20px;
+}
+.gray{
+    color: gray;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Like & Dislike Counter</title>
+    <link rel="icon" href="../Usepic/imageLogo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./gallery.css">
+</head>
+
+<body>
+    <h2>Gallery</h2>
+    <div class="container-image">
+
+        <div class="container">
+            <div class="img1">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button onclick="like(0);" class="red-like"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like0">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(0);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike0">0</span>
+                </div><br>
+                <p class="bold">Child Photo</p>
+                <p class="gray">River and Birds</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img2">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(1);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like1">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(1);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike1">0</span>
+                </div><br>
+                <p class="bold">Nature Photo</p>
+                <p class="gray">Nature and vallley</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img3">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(2);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like2">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(2);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike2">0</span>
+                </div><br>
+                <p class="bold">Mom Love Photo</p>
+                <p class="gray">Mom and Daughter Love</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img4">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(3);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like3">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(3);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike3">0</span>
+                </div><br>
+                <p class="bold">Family Photo</p>
+                <p class="gray">River and Family on picnic</p>
+            </div>
+        </div>
+
+        <!-- 2nd row -->
+
+        <div class="container">
+            <div class="img5">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(4);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like4">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(4);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike4">0</span>
+                </div><br>
+                <p class="bold">Monkey Photo</p>
+                <p class="gray">Monkeys with son</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img6">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(5);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like5">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(5);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike5">0</span>
+                </div><br>
+                <p class="bold">Pigeon Photo</p>
+                <p class="gray">Nature and Birds flying</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img7">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(6);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like6">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(6);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike6">0</span>
+                </div><br>
+                <p class="bold">Couple Photo</p>
+                <p class="gray">Man and Women love</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img8">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(7);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like7">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(7);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike7">0</span>
+                </div><br>
+                <p class="bold">Girl Photo</p>
+                <p class="gray">Girl and Flower Showing</p>
+            </div>
+        </div>
+
+
+        <!-- 3rd row -->
+        <div class="container">
+            <div class="img9">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(9);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like9">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(9);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike9">0</span>
+                </div><br>
+                <p class="bold">Eyes Photo</p>
+                <p class="gray">Eye All parts With zoom</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img11">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(10);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like10">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(10);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike10">0</span>
+                </div><br>
+                <p class="bold">Couple Photo</p>
+                <p class="gray">Boy and Girl in love</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img12">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(11);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like11">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(11);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike11">0</span>
+                </div><br>
+                <p class="bold">Dad Love Photo</p>
+                <p class="gray">Dad and Son Feeling hear</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img10">
+                <span class="favorite-heart">❤️</span>
+            </div>
+            <div class="bottom-like">
+                <div class="like_container">
+                    <button class="red-like" onclick="like(8);"><i class="fa fa-thumbs-up"></i></button><br>
+                    <span id="op_text_like8">0</span>
+                </div>
+                <div class="dislike_container">
+                    <button class="blue-dislike" onclick="dislike(8);"><i class="fa fa-thumbs-down"></i></button><br>
+                    <span id="op_text_dislike8">0</span>
+                </div><br>
+                <p class="bold"> Photo</p>
+                <p class="gray">Dad and Son Feeling heart</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- here are a JS file -->
+    <script src="./gallery.js"></script>
+</body>
+
+</html>
