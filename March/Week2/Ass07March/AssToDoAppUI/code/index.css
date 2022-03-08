@@ -1,0 +1,47 @@
+body{
+    /* background-color: rgb(226, 223, 223); */
+    background-image: linear-gradient(to bottom, rgba(39, 60, 71, 0.91), rgba(186, 145, 145, 0.8)), url('../usepic/bgpic.webp');
+    background-position: center;
+    background-size: cover;
+}
+.outside{
+    margin-top: 20vh;
+}
+div{
+    border: 1px solid rgb(32, 178, 218);
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+}
+
+.header{
+    color: rgb(152, 62, 64);
+    background-color: rgb(12, 185, 243);
+}
+.search-container{
+    background-color: rgb(13, 185, 247);
+}
+button {margin: auto;
+    background-color: rgb(150, 167, 123);
+    color: rgb(37, 37, 132);
+    width: 5vw;
+    height: 5vh;
+}
+
+
+input {
+    color: blue;
+    font-weight: bold;
+    margin: auto;
+    width: 38.5vw;
+    height: 5vh;
+    border: 3px solid rgb(110, 113, 105);
+}
+.menu-container{
+    text-align: left;
+    background-color: rgb(187, 241, 241);
+    color: rgba(71, 98, 196, 0.762);
+}
+.blue{
+    color: blue;
+}
