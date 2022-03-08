@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Gallery Pop Up</title>
+    <link rel="icon" href="../usepics/imageLogo.jpg">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2>Image Gallery</h2>
+    <div class="image-Container">
+
+        <div class="space-evenly-container">
+            <button onclick="show(1);"> <img id="img1" src="../usepics/image1.webp" alt="Nature Pic" class="img-gellery"></button>
+            <button onclick="show(2);">
+                <img id="img2" src="../usepics/image4.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(3);"><img id="img3" src="../usepics/image5.webp" alt="Nature Pic" class="img-gellery"></button>
+            <button onclick="show(4);"><img id="img4" src="../usepics/image6.webp" alt="Nature Pic" class="img-gellery"></button>
+        </div>
+
+        <div class="space-evenly-container">
+            <button onclick="show(5);">
+                <img id="img5" src="../usepics/image7.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(6);">
+                <img id="img6" src="../usepics/image2.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(7);">
+                <img id="img7" src="../usepics/image3.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(8);">
+                <img id="img8" src="../usepics/image8.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+        </div>
+        
+        <div class="space-evenly-container">
+           <button onclick="show(9);">
+            <img id="img9" src="../usepics/image9.webp" alt="Nature Pic" class="img-gellery">
+           </button>
+            <button onclick="show(10);">
+                <img id="img10" src="../usepics/image10.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(11);">
+                <img id="img11" src="../usepics/image11.webp" alt="Nature Pic" class="img-gellery">
+            </button>
+            <button onclick="show(12);">
+                <img id="img12" src="../usepics/image12.webp" alt="Nature  Pic" class="img-gellery">
+            </button>
+        </div>
+    </div>
+    <div class="d-none" id="pop">
+        <button class="close-button" onclick="clicked();">❌</button>
+        <img  id="temp" src="../usepics/image10.webp" alt="pic">
+    </div>
+
+    <!-- assignment details -->
+    <p class="assignmentQuestion"><strong>Note: </strong>Recreate the image gallery using Js and like PopUp.
+    </p>
+
+    <strong>Designed By : <i><u> Moh Sameer Khan</u></i></strong>
+    <p><strong id="blue">E-mail: mskhanm1819@gmail.com</strong></p>
+
+    <!-- js file -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
