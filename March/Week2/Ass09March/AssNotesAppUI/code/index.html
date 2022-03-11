@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes UI</title>
+    <link rel="icon" href="../usepics/logoTodo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="side-nav">
+            <button onclick="clicked('home');" class="side-btn active-btn">🏠 Home</button><br>
+            <button onclick="clicked('routine'); " class="side-btn">🔃Daily Routine</button><br>
+            <button onclick="clicked('favorite');" class="side-btn">💟Favorites</button><br>
+            <button onclick="clicked('buy'); " class="side-btn">Ⓜ️To Buy Menu</button><br>
+            <button onclick="clicked('work');" class="side-btn">🎰To Work</button>
+        </div>
+        <div class="home-container" id="home">
+            <span class="left">📝 Notes - 🏠 Home</span>
+            <button class="right close" id="close" onclick="close_div('home');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-home-text" placeholder="Add here your task...">
+            <button id="home-btn">ADD TASK</button>
+            <ul class="home-list" id="home-list-item">
+                <li class="bold">Add something here</li>
+            </ul>
+            <div class="home-bottom">
+                <a href="#"> Publish</a>
+                <button class="close-bttn" onclick="close_div('home');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x">&nbsp;</i></span>
+            </div>
+        </div>
+        <div class="routine-container" id="routine">
+            <span class="left">📝 <strong> Notes - 🔃 </strong> Daily Routine</span>
+            <button class="right close" id="close" onclick="close_div('routine');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-routine-text" placeholder="Add here your routine...">
+            <button id="routine-btn">ADD TASK</button>
+            <ul class="home-list" id="routine-list-item">
+                <li class="bold">Add your routine here</li>
+            </ul>
+            <div class="routine-bottom">
+                <a href="#"> Publish</a>&emsp;
+                <button class="close-bttn" onclick="close_div('routine');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="favorite-container" id="favorite">
+            <span class="left">📝 <strong> Notes -💟 </strong> Favorites..</span>
+            <button class="right close" id="close" onclick="close_div('favorite');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-favorite-text" placeholder="Add here your favorite"> <button id="favorite-btn">ADD
+                HERE</button>
+            <ul class="favorite-list" id="favorite-list-item">
+                <li class="bold">Add Your Favorites here</li>
+            </ul>
+            <div class="favorite-bottom">
+                <a href="#"> Publish</a>
+                <button class="close-bttn" onclick="close_div('favorite');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="buy-container" id="buy">
+            <span class="left">📝 <strong> Notes - Ⓜ️ </strong> To Buy Menu</span>
+            <button class="right close" id="close" onclick="close_div('buy');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-buy-text" placeholder="Add here to buy menu"> <button id="buy-btn">ADD
+                HERE</button>
+            <ul class="buy-list" id="buy-list-item">
+                <li class="bold">Add Your menu to buy</li>
+            </ul>
+            <div class="buy-bottom">
+                <a href="#"> Publish</a>
+                <button class="close-bttn" onclick="close_div('buy');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="work-container" id="work">
+            <span class="left">📝 <strong> Notes - 🎰 </strong> To Work Menu</span>
+            <button class="right close" id="close" onclick="close_div('work');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-work-text" placeholder="Add here your work.."> <button id="work-btn">ADD
+                HERE</button>
+            <ul class="work-list" id="work-list-item">
+                <li class="bold">Add Your work here</li>
+            </ul>
+            <div class="work-bottom">
+                <a href="#"> Publish</a>
+                <button class="close-bttn" onclick="close_div('work');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

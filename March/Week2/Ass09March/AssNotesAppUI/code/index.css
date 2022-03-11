@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-image: url('../usepics/bg5.webp');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+.side-nav{
+    background-color: rgb(202, 201, 201);
+    width: fit-content;
+    height: 100vh;
+    overflow: hidden;
+    min-width: 60px;
+    max-width: 20vw;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(229,236,243,1) 100%);
+    background-size: cover;
+    border-right: 3px solid red;
+}
+.right{
+    float: right;
+}
+.d-none{
+  display: none;
+}
+.home-container,.work-container,.buy-container,.work-container,.favorite-container,.routine-container{
+    width: 60vw;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    background-image: url('../usepics/bgwhite.webp');
+    background-size: cover;
+    height: 96vh;
+  }
+  .left{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+  }
+  .bold{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .side-btn{
+    background: none;
+    font-size: x-large;
+  }
+  .side-btn:focus{
+    color: red;
+    text-decoration: underline;
+  }
+  .side-btn:hover{
+    text-decoration: underline;
+    
+  }
+  .active-btn{
+    color: red;
+    text-decoration: underline;
+  }
+  .side-btn:active{
+    background-color: rgb(204, 198, 198);
+  }
+  .home-bottom,.routine-bottom,.favorite-bottom,.buy-bottom,.work-bottom{
+    margin-top: 40px;
+  }
+  
+  .close{
+    font-size: x-large;
+  }
+  .close-bttn{
+    font-size: large;
+    background-color: rgb(225, 184, 184);
+  }
+  .close-bttn:hover{
+    background-color: rgb(182, 171, 171);
+  }
+  button,.close-bttn{
+    padding: 11px;
+    font-weight: bold;
+    color: blue;
+    
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  button:active{
+    color: red;
+  }
+  input{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 27vw;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    text-align: center;
+    margin-left: 5px;
+  }
+.work-container,.buy-container,.work-container,.favorite-container,.routine-container{
+    display: none;
+}
