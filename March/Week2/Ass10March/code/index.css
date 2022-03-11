@@ -1,0 +1,66 @@
+body {
+    background-image: url('../usepics/timerbg2.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    
+}
+.timmer {
+    border: 2px solid black;
+    background: linear-gradient(to right, #bb9999,blue);
+    border-radius: 3vh;
+    padding: 2vh;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.min {
+    border: 2px solid black;
+    background:  linear-gradient(to right, #bb9999,blue);
+    color: white;
+    border-radius: 3vh;
+    padding: 1vh;
+    padding: 2vh;
+    font-size: 15vh;
+    margin-left: 1vw;
+}
+.sec {
+    border: 2px solid black;
+    background:  linear-gradient(to right, #bb9999,blue);
+    color: white;
+    padding: 1vh;
+    padding: 2vh;
+    border-radius: 3vh;
+    font-size: 15vh;
+    margin-left: 1vw;
+}
+.container > button {
+    background: linear-gradient(45deg, #c680cb,#9297bd);
+    font-size: 4vh;
+    font-weight: bolder;
+    border-radius: 4vh;
+}
+.time{
+    color: black;
+}
+.clock {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 2vh;
+    font-size: 6vh;
+    color: rgb(255, 240, 240);
+    justify-content: space-between;
+    width: 23vw;
+    background:  linear-gradient(to right, #bb9999,blue);
+    padding: 1vh;
+    box-shadow: 2px 2px 3px rgb(184, 181, 181);
+    box-shadow: 1px 1px 6px 11px #a7a4a4;
+}
