@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram UI Design</title>
+    <link rel="icon" href="../usepics/instagramLogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="outside-border">
+        <div class="top-bar">
+            <img src="../usepics/networkIcon.png" alt="networkIcon" width="14px" class="left-top">
+            <img src="../usepics/networkIcon.png" alt="networkIcon" width="14px" class="left-top">
+            <span class="left-top time">06:40</span>
+            <span class="right-top"><i class="fa fa-battery-full" aria-hidden="true"></i></span>
+            <span class="right-top time">100%</span>
+            <span class="right-top"><i class="fa fa-wifi" aria-hidden="true"></i></span>
+        </div><br>
+        <!-- Here home container -->
+        <section class="container-display-home" id="home">
+            <div class="contaier-home-scroll">
+                <a href="#"><img src="../usepics/Imghome.jpeg" alt="Pic" width="250px" height="400px"></a>
+                <a href="#"><img src="../usepics/mahruPic.jpeg" alt="" width="250px" height="400px"></a>
+                <a href="#"><img src="../usepics//imagemahru.jpeg" alt="Pic" width="255px" height="400px"></a>
+            </div>
+        </section>
+        <!-- search container -->
+        <section class="search-container" id="search">
+            <div class="search-bar">
+                <input type="search" placeholder="🔍 search">
+            </div>
+            <div class="search-img-container">
+                <img src="../usepics/image1.webp" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/imagemahru.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/image1.webp" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/samdp.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/image1.webp" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/samPic.jpg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/image1.webp" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/mahru1dp.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/mahruPic.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/samdp.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/imagemahru.jpeg" alt="Pic" width="65vw" height="90vh">
+                <img src="../usepics/samPic.jpg" alt="Pic" width="65vw" height="90vh">
+            </div>
+        </section>
+        <section class="video-add" id="video">
+            <div class="">
+                <img src="../usepics/mahruPic.jpeg" alt="pic" width="250px" height="600px" />
+            </div>
+        </section>
+        <!-- here for like container -->
+        <section class="like-container" id="like">
+            <h1 class="left">Activity</h1>
+            <div class="follow">
+                <span class="white"><i class="fa fa-user fa-2x left border"></i>Follow Requests <br><span
+                        class="left space gray">Approve or ignor requst</span></span>
+            </div>
+            <hr>
+            <h2 class="left">Today</h2>
+            <img src="../usepics/samPic.jpg" alt="Pic" width="25px" class="profile-pic left">
+            <span class="follower"> <strong> Zuber Khan</strong> Started Following You. 4h ago .</span><br>
+            <img src="../usepics/mahru1dp.jpeg" alt="Pic" width="25px" class="profile-pic left">
+            <span class="follower"><strong>Subhaan Khan</strong> Started Following You. 1h ago .</span><br>
+            <img src="../usepics/mahrudp.jpeg" alt="Pic" width="20px" class="profile-pic left">
+            <span class="follower"><strong>Kl Rahul</strong> accepted your friend request 4h ago .</span><br>
+            <img src="../usepics/mahru1dp.jpeg" alt="Pic" width="25px" class="profile-pic left">
+            <span class="follower"> <strong> mahruddin143.king</strong> liked your photo 9h ago .</span><br>
+            <img src="../usepics/samdp.jpeg" alt="Pic" width="25px" class="profile-dp left">
+            <span class="follower"><strong> Mohd Faisal</strong> Started Following You. 12h ago .</span>
+        </section>
+        <!-- here are profile container -->
+        <section class="profile-container" id="profile">
+            <div class="prof">
+                <img src="../usepics/propfile.jpg" alt="pic" width="230px" height="350px">
+            </div>
+        </section>
+        <div class="bottom-bar">
+            <button class="bottom-home bottom" onclick="clicked('home');">
+                <i class="fa fa-home fa-2x"></i>
+            </button>
+            <button onclick="clicked('search');" class="bottom-search bottom">
+                <i class="fa fa-search fa-2x"></i>
+            </button>
+            <button onclick="clicked('video');" class="bottom-videoadd bottom">
+                <i class="fa fa-video-camera fa-2x" aria-hidden="true"></i>
+            </button>
+            <button onclick="clicked('like');" class="bottom-like bottom">
+                <i class="fa fa-heart-o fa-2x"></i>
+            </button>
+            <button onclick="clicked('profile');" class="bottom-profile bottom">
+                <img src="../usepics/samPic.jpg" alt="Pic" class="profile-pic" width="25px">
+            </button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

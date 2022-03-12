@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    background: radial-gradient(circle, rgba(91,105,177,0.9699230033810399) 0%, rgba(0,0,0,1) 100%);
+    background-color: black;
+}
+.outside-border{
+    display: inline-block;
+    margin-top:10% ;
+    width: 35vh;
+    height: 70vh;
+    background-color: black;
+    box-shadow: 4px 4px 4px 6px gray;
+    outline: 4px outset rgb(0, 0, 0);
+    outline-style:double;
+    overflow: scroll;
+}
+.left-top{
+    padding-left: 10px;
+    float: left;
+}
+.right-top{
+    padding-right: 10px;
+    float: right;
+}
+.fa{
+    color: white;
+}
+
+.time{
+    font-size: 13px;
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.bottom-bar{
+    background-color: black;
+    position: absolute;
+    top: 86%;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+.vidoeImg{
+    width: 20px;
+    background-color: transparent;
+
+}
+
+.nav{
+    background-color: black;
+    position: fixed;
+}
+.bottom{
+    margin-left: 11px;
+    padding-left: 7px;
+}
+.nav{
+    display: inline-block;
+}
+
+.b-right{
+    float: right;
+}
+.contaienr-home-scroll{
+    position: static;
+}
+.search-container{
+    position: relative;
+    display: none;
+}
+input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 12vw;
+    height: 4vh;
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
+.search-img-container{
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    overflow: hidden;
+    width: 13vw;
+    padding-top: 20px;
+}
+
+.border{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.gray{
+    color: gray;
+}
+.profile-pic{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.follower{
+    color: gray;
+}
+strong{
+    color: white;
+}
+.profile-dp{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.prof{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 60px;
+}
