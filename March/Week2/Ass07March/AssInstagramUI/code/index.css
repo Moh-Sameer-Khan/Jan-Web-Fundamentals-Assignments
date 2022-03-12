@@ -29,7 +29,8 @@ body{
 .fa{
     color: white;
 }
-
+.search-container,.video-add,.like-container,.profile-container{
+    display: none;
 .time{
     font-size: 13px;
     color: white;
@@ -49,7 +50,6 @@ button{
 .vidoeImg{
     width: 20px;
     background-color: transparent;
-
 }
 
 .nav{
@@ -57,8 +57,8 @@ button{
     position: fixed;
 }
 .bottom{
-    margin-left: 11px;
-    padding-left: 7px;
+    margin-left: 1px;
+    padding-left: 3px;
 }
 .nav{
     display: inline-block;
@@ -72,7 +72,6 @@ button{
 }
 .search-container{
     position: relative;
-    display: none;
 }
 input{
     border: none;
