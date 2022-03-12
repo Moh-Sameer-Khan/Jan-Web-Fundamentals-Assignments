@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background: black;
+    padding: 5px 10px;
+  }
+input{
+    width: 52vw;
+    height: 6vh;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    background-color: #dad1d1;
+    border: none;
+}
+button{
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+}
+.nav > a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(233, 89, 89);
+    background-color: #05A29B;
+    padding: 10px;
+    text-decoration: underline;
+}
+h1{
+    font-size: xX-large;
+    color: white;
+}
+button:hover{
+    background-color: rgb(175, 170, 170);
+}
+button:active{
+    color: red;
+}
+#container{
+    margin-top: 50px;
+}
