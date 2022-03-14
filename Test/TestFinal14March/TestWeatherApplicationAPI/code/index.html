@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application using API</title>
+    <link rel="icon" href="../usepics/cloud.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- <h1>Weather Application</h1> -->
+    <div class="wrapper">
+        <header><i class="fa fa-arrow-left" aria-hidden="true"></i>Weather App</header>
+        <section class="input-part">
+            <p class="info-txt error pending"></p>
+            <input type="text" placeholder="Enter city name" spellcheck="false" required>
+            <div class="seaprator"></div>
+            <button>Get Device Location</button>
+        </section>
+        <section class="weather-part">
+            <img src="../usepics/cloud.png" alt="image">
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">o</span>C
+            </div>
+            <div class="weather">__</div>
+            <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>_, _</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i> 
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">o</span>C
+                        </div>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+                    <div class="details">
+                        <span>_</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
